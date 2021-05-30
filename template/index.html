@@ -1,1 +1,4 @@
-SANITY CHECK
+{% for post in posts %}
+  <p>{{post.title}}</p>
+  <p>{{post.content}}</p>
+{% endfor %}
